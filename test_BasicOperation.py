@@ -7,3 +7,6 @@ class TestBasicOperation:
         
     def test_sub(self):
         assert 1 == BasicOperation.sub(3,2)
+        
+    def test_mul(self):
+        assert 6 == BasicOperation.mul(3,2)
