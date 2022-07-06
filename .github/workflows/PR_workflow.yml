@@ -5,9 +5,8 @@ name: Example
 
 on:
   push:
-    branches: [ "master" ]
   pull_request:
-    branches: [ "master" ]
+    types: [auto_merge_disabled]
 
 permissions:
   contents: read
