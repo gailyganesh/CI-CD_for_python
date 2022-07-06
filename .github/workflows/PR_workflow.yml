@@ -6,6 +6,7 @@ name: Example
 on:
   push:
   pull_request:
+    types: [auto_merge_disabled]
 
 permissions:
   contents: read
